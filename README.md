@@ -16,7 +16,9 @@ Open `http://localhost:8000`.
 
 ## Publish
 
-GitHub Pages serves the root of the `main` branch at <https://itopsreborn.github.io/>. In **Settings > Pages**, select **Deploy from a branch**, `main`, and `/ (root)`.
+To publish at <https://itopsreborn.github.io/>, open **Settings > Pages**, select **Deploy from a branch**, choose `copilot/itopsreborn-landing-page`, and select `/ (root)`.
+
+The landing page is on this branch because repository rules restrict creation of `main`. GitHub Pages still needs to be enabled by an account with Pages administration access; the app used to create the site could push the branch but could not enable Pages.
 
 ## Update
 
